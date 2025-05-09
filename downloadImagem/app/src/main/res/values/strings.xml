@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Avaliacao</string>
+    <string name="downloadImagem">Download Imagem</string>
+    <string name="processar">Processar</string>
+</resources>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Atividade4</string>
+    <string name="estilo">Estilo</string>
+    <string name="negrito">Negrito</string>
+    <string name="italico">Itálico</string>
+    <string name="maiusculas">Maiúsculas</string>
+    <string name="CorLetra">Cor da letra</string>
+    <string name="vermelho">Vermelho</string>
+    <string name="verde">Verde</string>
+    <string name="azul">Azul</string>
+    <string name="tamanhoLetra">Tamanho da letra</string>
+    <string name="texto">Aplicar Formatação</string>
+    <string name="testeEstilo">Teste de Estilos</string>
+    <string name="aplicar">Aplicar</string>
+</resources>

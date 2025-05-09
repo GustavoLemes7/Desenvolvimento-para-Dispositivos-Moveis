@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="Email">Email</string>
+    <string name="Password">Password</string>
+    <string name="Enviar">Enviar</string>
+    <string name="on">On</string>
+    <string name="off">Off</string>
+    <string name="sort_icon_description" />
+    <string name="Mostrarsenha">Mostrar senha  </string>
+</resources>

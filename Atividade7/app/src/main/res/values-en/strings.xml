@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Contacts</string>
+    <string name="act_add">ADD</string>
+    <string name="act_edit">EDIT</string>
+    <string name="act_delete">DELETE</string>
+    <string name="act_help">HELP</string>
+    <string name="msg_add">Add contact</string>
+    <string name="msg_edit">Edit contact</string>
+    <string name="msg_delete">Delete contact</string>
+</resources>

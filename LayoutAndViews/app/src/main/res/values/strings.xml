@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Atv2</string>
+    <string name="nome">Nome :</string>
+    <string name="Sexo">Sexo :</string>
+    <string name="Masculino">Masculino</string>
+    <string name="Feminino">Feminino</string>
+    <string name="email">Email:</string>
+    <string name="telefone">Telefone :</string>
+    <string name="preferencias">Preferências :</string>
+    <string name="musica">Música</string>
+    <string name="cinema">Cinema</string>
+    <string name="esporte">Esporte</string>
+    <string name="gastronomia">Gastronomia</string>
+    <string name="on">On</string>
+    <string name="off">Off</string>
+    <string name="Notificacao">Ativar notificações :</string>
+    <string name="limpar">LIMPAR</string>
+    <string name="exibir">EXIBIR</string>
+    <string name="exercicio1">Exercício 1</string>
+</resources>
