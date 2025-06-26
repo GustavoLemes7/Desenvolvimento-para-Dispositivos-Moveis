@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Atividade9</string>
+    <string name="selHora">Selecionar Hora</string>
+    <string name="selData">Selecionar Data</string>
+</resources>
