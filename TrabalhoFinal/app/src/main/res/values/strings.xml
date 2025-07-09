@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TrabalhoFinal</string>
+    <string name="salvar">Salvar</string>
+    <string name="tipo">Tipo</string>
+    <string name="nome">Nome</string>
+    <string name="atualizar">Atualizar</string>
+</resources>
