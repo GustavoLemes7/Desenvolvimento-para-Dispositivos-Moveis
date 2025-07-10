@@ -48,15 +48,24 @@ public class MainActivity extends AppCompatActivity implements PokemonAdapter.On
         binding.contentMain.recyclerViewPokemon.setLayoutManager(new LinearLayoutManager(this));
         adapter = new PokemonAdapter(pokemons);
         adapter.setOnPokemonClickListener(this);
+        adapter.setOnPokemonDeleteClickListener(pokemon -> {
+            pokemonRepository.remover(pokemon);
+
+            Snackbar.make(binding.getRoot(), "Removido com sucesso!", Snackbar.LENGTH_LONG)
+                    .setAction("Desfazer", v -> pokemonRepository.inserir(pokemon))
+                    .show();
+        });
+
         binding.contentMain.recyclerViewPokemon.setAdapter(adapter);
     }
+
 
     private void observarPokemons() {
         pokemonRepository.getPokemons().observe(this, new Observer<List<Pokemon>>() {
             @Override
-            public void onChanged(List<Pokemon> pokemons) {
+            public void onChanged(List<Pokemon> pokemonsObtidos) {
                 pokemons.clear();
-                pokemons.addAll(pokemons);
+                pokemons.addAll(pokemonsObtidos);
                 adapter.setPokemon(pokemons);
             }
         });
